@@ -1,138 +1,117 @@
-const logotext = "JOHN";
+import React from 'react';
+import CashSmartCoverImage from "./assets/images/CashSmart-casestudy-cover.png";
+
+const logotext = "MaryanDesign";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "MaryanDesign",
+    description: "I’m Maryan UX/UI designer _ who can also code ,currently working in Remotely in the UK",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Maryan",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I am UX/UI designer",
+        second: "Designing with empathy, innovation, and finesse",
+        third: "I can also code",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
-};
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+    aboutme:
+      'I\'m an innovative problem-solver with a passion for UX/UI design since childhood. Inspired by a Korean drama called "Startup," I joined a hackathon and discovered my love for design and coding. Winning the challenge fueled my dedication to UX/UI, driving me to pursue a prestigious bootcamp to expand my skills. I\'m committed to mastering design, pushing boundaries, and creating exceptional experiences.',
+  };
+  
+  const worktimeline = [
+    {
+      jobtitle: "Organisational Learning Coordinator",
+      where: "Plan International",
+      date: "2021-Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+      jobtitle: "Lead UX designer (1st Place Virtual Team)",
+      where: "CashSmart-Athena Hackathon",
+      date: "July 2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+      jobtitle: "UX/UI designer (Best Overall Hack)",
+      where: "Femtor-Starhacks II Hackathon",
+      date: "January 2022",
     },
-];
+    {
+      jobtitle: "Evacability Website",
+      where: "Global Team",
+      date: "March 2022 - October 2022",
+    },
+    {
+      jobtitle: "Monitoring and Evaluation Coordinator Intern",
+      where: "Organization Name",
+      date: "February 2021 - April 2021",
+    },
+    {
+      jobtitle: "Humanitarian Affairs Intern",
+      where: "Organization Name",
+      date: "June 2020 - December 2020",
+    },
+  ];
+  
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    {
+      name: "Design",
+      skills: "UX Design, IA, Wireframing, Prototyping, Usability Testing, Interaction Design, Design Thinking, Responsive Web Design, Mobile App Design",
     },
     {
-        name: "Djano",
-        value: 85,
+      name: "Django",
+      skills: "85",
     },
     {
-        name: "Javascript",
-        value: 80,
+      name: "Javascript",
+      skills: "80",
     },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
-];
+  ];
+  
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+  const services = [
+    {
+      title: "Design",
+      description: "User Experience (UX) Design, Information Architecture, Wireframing and Prototyping, Usability Testing, Interaction Design, Visual Design, Design Thinking, Responsive Web Design, Mobile App Design",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      title: "Development",
+      description: "JavaScript, React, HTML/CSS",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      title: "Tools",
+      description: "Figma, Adobe XD, Visual Studio Code, GitHub, Git",
     },
-];
+  ];
+  
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: CashSmartCoverImage,
+        description: "Offering a gamified learning experience to empower users in their financial journey.",
+        link: "#",
+    },
+    {
+        img: CashSmartCoverImage,
+        description: "Offering a gamified learning experience to empower users in their financial journey.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Transforming the U.S department of Labor Website.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Reinventing the Chaldon Animal Sanctuary Website.",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+  ,
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
 ];
 
 const contactConfig = {
