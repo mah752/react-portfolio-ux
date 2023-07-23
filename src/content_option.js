@@ -11,11 +11,11 @@ const introdata = {
     title: "I’m Maryan",
     animated: {
         first: "I am UX/UI designer",
-        second: "Designing with empathy, innovation, and finesse",
+        second: "based in the UK",
         third: "I can also code",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    description: "From childhood, my out-of-the-box thinking has fueled my passion for innovative problem-solving. I've consistently brought fresh perspectives and creative solutions to every endeavor, showcasing my ability to think beyond conventional boundaries.",
+    your_img_url: "https://images.unsplash.com/photo-1561406059-0229136fe606?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
 };
 
 const dataabout = {
@@ -61,7 +61,7 @@ const dataabout = {
 const skills = [
     {
       name: "Design",
-      skills: "UX Design, IA, Wireframing, Prototyping, Usability Testing, Interaction Design, Design Thinking, Responsive Web Design, Mobile App Design",
+      skills: "UX Design, IA, Wireframing, Prototyping, Usability Testing, Interaction Design, Design Thinking, Responsive Web Design, Mobile App Design.",
     },
     {
       name: "Django",
@@ -78,6 +78,7 @@ const skills = [
     {
       title: "Design",
       description: "User Experience (UX) Design, Information Architecture, Wireframing and Prototyping, Usability Testing, Interaction Design, Visual Design, Design Thinking, Responsive Web Design, Mobile App Design",
+    process: "In my design process, I follow a user-centered approach that involves empathizing with the target audience to understand their needs and pain points. I then define the problem and project requirements. Next, I ideate and generate multiple design concepts. Using these concepts, I create prototypes to visualize and test the ideas. Through usability testing, I gather user feedback to refine and iterate on the design, ensuring that the final product meets user expectations and delivers an optimal user experience."
     },
     {
       title: "Development",
@@ -127,7 +128,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com",
-    facebook: "https://facebook.com",
+    behance: "https://facebook.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
 };
