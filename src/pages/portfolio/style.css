@@ -12,7 +12,7 @@
 
 .po_item {
     display: flex;
-    min-width: 80%;
+    min-width: 100%;
     text-align: center;
     margin: 0.5rem auto;
     position: relative;
@@ -24,6 +24,7 @@
     min-height: 300px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
 .po_item img {
